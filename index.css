@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: "Rubik", sans-serif;
+  color: white;
+height: 100vh;
+  overflow-x: hidden;
+}
+.main {
+  position: relative;
+  
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  height: 100vh;
+  z-index: -1;
+  background-image: url("/img/header.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.hero_Section{
+
+  height: 100vh;
+}
+
+.upper_header_button {
+  display: flex;
+  justify-content: flex-end;
+}
+.upper_header_button button {
+  margin: 30px 30px;
+  padding: 5px 20px;
+
+  font-weight: bold;
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: white;
+  font-size: 13px;
+}
+.middle_header_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 4rem;
+}
+.text1 {
+  color: #00ed82;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.hulu_text img {
+  width: 228px;
+  height: 76px;
+  margin-top: 30px;
+}
+
+.text2 {
+  margin: 15px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+.text3 {
+  margin-top: 25px;
+  font-size: 15px;
+}
+.middle_header_text button {
+  padding: 0 32px;
+  margin-top: 25px;
+  width: 261px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.middle_header_text > div:last-child {
+  font-size: 10px;
+  margin-top: 20px;
+  color: rgb(163, 162, 162);
+}
+.logos img {
+  width: 300px;
+  height: 70px;
+}
+
+.section2 {
+
+  background: linear-gradient(135deg, #231437 0%, #2c385e 50%, #336e6b 100%);
+  padding: 2.4rem 0;
+}
+
+.lower_header_texts {
+  line-height: 30px;
+  margin-top: 0;
+  align-self: end;
+}
+
+.lower_header_texts > div:nth-child(2) {
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.txt1 {
+  color: #00ed82;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+}
+.lower_header_texts a {
+  font-size: 15px;
+  color: grey;
+}
+.lower_header_button a {
+  font-size: 10px;
+  color: grey;
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.lower_header_button button {
+  padding: 0.7rem 0.7rem;
+  border-radius: 4px;
+  background: none;
+
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 1px solid white;
+}
+.lower_header_button {
+text-align: center;
+
+}
+.section3{
+  background-color: #151516;
+  padding: 3.5rem 0;
+}
+
+.text_2 h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+  color: #fcfcfc;
+}
+.text_1 h3 {
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #00ed82;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.text_3 p {
+  font-size: 20px;
+  padding-top: 16px;
+  color: #ffffff;
+  margin: 0 82x;
+  line-height: 26px;
+}
+.upper_texts {
+  margin: 0 auto;
+  text-align: center;
+
+  padding-bottom: 50px;
+}
+.image {
+  width: 294px;
+  height: 450px;
+  position: relative;
+  padding: 25px;
+}
+.image h1 {
+  font-size: 24px;
+  color: #ffffff;
+}
+.image h3 {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.img_1 {
+  background: linear-gradient(
+      156.82deg,
+      rgba(0, 0, 0, 0.6) 4.58%,
+      rgba(0, 0, 0, 0) 69.61%
+    ),
+    linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%),
+    url("/img/cover-1.jpg") no-repeat center center/cover;
+}
+.img_2 {
+  background: linear-gradient(
+      156.82deg,
+      rgba(0, 0, 0, 0.6) 4.58%,
+      rgba(0, 0, 0, 0) 69.61%
+    ),
+    linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%),
+    url("/img/cover-2.jpg") no-repeat center center/cover;
+}
+.img_3 {
+  background: linear-gradient(
+      156.82deg,
+      rgba(0, 0, 0, 0.6) 4.58%,
+      rgba(0, 0, 0, 0) 69.61%
+    ),
+    linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%),
+    url("/img/cover-3.jpg") no-repeat center center/cover;
+}
+.img_4 {
+  background: linear-gradient(
+      156.82deg,
+      rgba(0, 0, 0, 0.6) 4.58%,
+      rgba(0, 0, 0, 0) 69.61%
+    ),
+    linear-gradient(24.5deg, rgba(0, 0, 0, 0.2) 4.71%, rgba(0, 0, 0, 0) 71.49%),
+    url("/img/cover-4.jpg") no-repeat center center/cover;
+}
+
+.tagline {
+  margin: 10px 50px;
+  font-size: 10px;
+  color: #ffffff;
+  text-align: end;
+}
+
+.section4 {
+  background-color: #151516;
+
+  padding: 1.5rem 0;
+}
+.subsection {
+  border: #00ed82 solid 4px;
+  border-radius: 16px;
+  padding: 0 1rem;
+}
+
+.lower_texts1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.text__1 {
+  font-size: 14px;
+  color: #00ed82;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.text__2 {
+  margin-top: 16px;
+  font-size: 64px;
+  font-weight: bolder;
+  line-height: 88px;
+}
+.text__3 {
+  margin: 0 auto;
+  padding: 10px 0;
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 30px;
+  max-width: 741px;
+}
+.text__4 {
+  font-size: 10px;
+
+  opacity: 0.6;
+  line-height: 34px;
+}
+.text__4 a {
+  color: #fff;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.text__5 {
+  margin-top: 18px;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: underline;
+
+  opacity: 0.6;
+}
+.text__5:hover {
+  cursor: pointer;
+}
+
+.section5 {
+  background: url("/img/live-sports.jpg") no-repeat center center/cover;
+  height: 811px;
+  padding: 80px 0 190px;
+}
+
+
+
+.upper_tag {
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px 0;
+  border-bottom: 4px solid #fff;
+}
+
+.second_text {
+  font-size: 62px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.para {
+  margin-top: 30px;
+  font-size: 24px;
+  min-width: inherit;
+}
+.logo_image {
+  margin-top: 30px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+}
+.logo_image img {
+  width: 44px;
+  top: 15px;
+  left: 5px;
+  position: absolute;
+  height: 25px;
+}
+.LOGOS {
+  display: flex;
+  gap: 10px;
+}
+footer {
+  height: fit-content;
+  background-color: #fcfcfc;
+}
+.grid {
+  width: 85%;
+  margin: 0 auto;
+}
+a:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.column a {
+  padding: 0 32px 8px 0;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #656b7b;
+  font-size: 14px;
+  display: block;
+}
+.first_row {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  padding: 50px 0 8px 0;
+}
+.first_row h3 {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #262930;
+  font-size: 12px;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+@media (max-width: 1277px) {
+  .logos img {
+    width: 220px;
+    height: 50px;
+  }
+ 
+
+ 
+  .img_1,
+  .img_3 {
+    justify-self: end;
+  }
+}
+
+@media (max-width: 975px) {
+
+  .lower_header_texts > div:nth-child(2) {
+    font-size: 20px;
+  }
+  .upper_texts {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .lower_header_texts {
+    line-height: 25px;
+  }
+  .lower_texts1 {
+    text-align: center;
+  }
+  .second_text {
+    font-size: 32px;
+  }
+  .para {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lower_header {
+ 
+    gap: 20px;
+    text-align: center;
+  }
+  .lower_header_texts {
+    align-self: center;
+    justify-self: center;
+  }
+ 
+  .lower_header_texts > div:nth-child(2) {
+    font-size: 22px;
+
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  .album {
+    gap: 10px;
+
+    grid-template-columns: 211px 211px;
+    margin: 0 auto;
+  }
+
+  .image {
+    width: inherit;
+  }
+  .hulu_text img {
+    width: 200px;
+    height: 76px;
+    margin-top: 30px;
+  }
+  .text2,
+  .text3 {
+    text-align: center;
+    padding: 0 20px;
+  }
+  .lower_header_button {
+    align-self: center;
+    justify-self: center;
+  }
+  .text_2 h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: #fcfcfc;
+  }
+  .text_3 p {
+    font-size: 16px;
+    padding-top: 16px;
+    color: #ffffff;
+    margin: 0 82x;
+    line-height: 26px;
+    width: 374px;
+    margin: 0 auto;
+  }
+  .column a {
+    font-size: 10px;
+    padding: 0;
+  }
+  .first_row h3 {
+    font-size: 10px;
+  }
+  .text__2 {
+    font-size: 32px;
+  }
+  .text__3 {
+    font-size: 20px;
+    width: 70%;
+  }
+  .second_text {
+    text-align: center;
+  }
+  .LOGOS {
+    justify-content: center;
+  }
+  .para {
+    font-size: 15px;
+    text-align: justify;
+  }
+ 
+}
